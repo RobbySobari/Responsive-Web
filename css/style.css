@@ -1,0 +1,446 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	position: absolute;
+	width: 1280px;
+	height: 300px;
+	background: #AECEFE;
+}
+.img {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 50px;
+	left: 90px;
+	border-radius: 50%;
+	background: #C4C4C4;
+	mix-blend-mode: saturation;
+	backdrop-filter: blur(4px);
+}
+h2{
+	position: absolute;
+	width: 250px;
+	height: 118px;
+	left: 620px;
+	top: 59px;
+	font-size: 40px;
+	line-height: 59px;
+	color: #000000;
+}
+.iam{
+	position: absolute;
+	width: 700px;
+	height: 50px;
+	top: 100px;
+	left: 390px;
+}
+.iam > h4{
+	display: inline-block;
+	background: #DCF7FF;
+	border-radius: 30px;
+	width: 150px;
+	height: 30px;
+	margin: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+p {
+	position: absolute;
+	width: 800px;
+	height: 208px;
+	left: 380px;
+	top: 200px;
+	font-size: 20px;
+}
+.content{
+	position: absolute;
+	width: 1200px;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.experience{
+	position: absolute;
+	top: 350px;
+	width: 1000px;
+	height: 600px;
+	margin-left: 230px;
+}
+.imgexp{
+	width: 250px;
+	height: 250px;
+	background: #C4C4C4;
+	margin: 30px;
+	display: inline-block;
+}
+.weapons{
+	position: absolute;
+	top: 1020px;
+	width: 1050px;
+	height: 600px;
+	margin-left: 230px;
+}
+.primary{
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+.imgprim{
+	width: 100px;
+	height: 100px;
+	background: #C4C4C4;
+	margin: 10px;;
+}
+.secondary{
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+.imgsecond{
+	width: 100px;
+	height: 100px;
+	background: #C4C4C4;
+	margin: 10px;;
+}
+.project{
+	position: absolute;
+	top: 1400px;
+	width: 1050px;
+	height: 600px;
+	margin-left: 210px;
+}
+.imgproject{
+	width: 250px;
+	height: 250px;
+	background: #C4C4C4;
+	margin: 30px;
+	display: inline-block;
+}
+.touchme{
+	position: absolute;
+	top: 2080px;
+	width: 800px;
+	height: 600px;
+	margin-left: 450px;
+}
+.touchme > h3{
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: left;
+	margin-left: 180px;
+	margin-bottom: 50px;
+}
+.imgtouchme{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+@media(max-width: 960px){
+	.header{
+		position: absolute;
+		width: 940px;
+		height: 500px;
+		background: #AECEFE;
+	}
+	.img {
+		position: absolute;
+		width: 180px;
+		height: 180px;
+		top: 10px;
+		left: 370px;
+		border-radius: 50%;
+		background: #C4C4C4;
+		mix-blend-mode: saturation;
+		backdrop-filter: blur(4px);
+	}
+	h2{
+		position: absolute;
+		width: 250px;
+		height: 118px;
+		left: 370px;
+		top: 220px;
+		font-size: 35px;
+		line-height: 59px;
+		color: #000000;
+	}
+	.iam{
+		position: absolute;
+		width: 700px;
+		height: 50px;
+		top: 270px;
+		left: 150px;
+	}
+	.iam > h4{
+		display: inline-block;
+		background: #DCF7FF;
+		border-radius: 30px;
+		width: 150px;
+		height: 30px;
+		margin: 30px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 27px;
+	}
+	p {
+		position: absolute;
+		width: 800px;
+		height: 208px;
+		left: 80px;
+		top: 380px;
+		font-size: 20px;
+	}
+	.content{
+		position: absolute;
+		width: 940px;
+	}
+	h3{
+		text-align: center;
+		font-size: 27px;
+		text-decoration: underline;
+		margin-bottom: 25px;
+	}
+	.experience{
+		position: absolute;
+		top: 530px;
+		width: 750px;
+		height: 600px;
+		margin-left: 80px;
+	}
+	.imgexp{
+		width: 200px;
+		height: 200px;
+		background: #C4C4C4;
+		margin: 20px;
+		display: inline-block;
+	}
+	.weapons{
+		position: absolute;
+		top: 1100px;
+		width: 750px;
+		height: 600px;
+		margin-left: 100px;
+	}
+	.primary{
+		display: inline-block;
+		width: 350px;
+		height: 250px;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+	}
+	.imgprim{
+		width: 80px;
+		height: 80px;
+		background: #C4C4C4;
+		margin: 7px;;
+	}
+	.secondary{
+		display: inline-block;
+		width: 350px;
+		height: 250px;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+	}
+	.imgsecond{
+		width: 80px;
+		height: 80px;
+		background: #C4C4C4;
+		margin: 7px;;
+	}
+	.project{
+		position: absolute;
+		top: 1430px;
+		width: 750px;
+		height: 600px;
+		margin-left: 80px;
+	}
+	.imgproject{
+		width: 200px;
+		height: 200px;
+		background: #C4C4C4;
+		margin: 20px;
+		display: inline-block;
+	}
+	.touchme{
+		position: absolute;
+		top: 2000px;
+		width: 600px;
+		height: 600px;
+		margin-left: 290px;
+	}
+	.touchme > h3{
+		font-size: 27px;
+		text-decoration: underline;
+		text-align: left;
+		margin-left: 100px;
+		margin-bottom: 50px;
+	}
+	.imgtouchme{
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+	}
+}
+@media(max-width: 720px){
+	.header{
+		position: absolute;
+		width: 700px;
+		height: 450px;
+		background: #AECEFE;
+	}
+	.img {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		top: 10px;
+		left: 280px;
+		border-radius: 50%;
+		background: #C4C4C4;
+		mix-blend-mode: saturation;
+		backdrop-filter: blur(4px);
+	}
+	h2{
+		position: absolute;
+		width: 250px;
+		height: 118px;
+		left: 280px;
+		top: 170px;
+		font-size: 28px;
+		line-height: 59px;
+		color: #000000;
+	}
+	.iam{
+		position: absolute;
+		width: 600px;
+		height: 50px;
+		top: 220px;
+		left: 160px;
+	}
+	.iam > h4{
+		display: inline-block;
+		background: #DCF7FF;
+		border-radius: 30px;
+		width: 100px;
+		height: 30px;
+		margin: 15px;
+		text-align: center;
+		font-size: 15px;
+		line-height: 27px;
+	}
+	p {
+		position: absolute;
+		width: 500px;
+		height: 208px;
+		left: 120px;
+		top: 300px;
+		font-size: 18px;
+	}
+	.content{
+		position: absolute;
+		width: 700px;
+	}
+	h3{
+		text-align: center;
+		font-size: 23px;
+		text-decoration: underline;
+		margin-bottom: 25px;
+	}
+	.experience{
+		position: absolute;
+		top: 500px;
+		width: 470px;
+		height: 600px;
+		margin-left: 130px;
+	}
+	.imgexp{
+		width: 130px;
+		height: 130px;
+		background: #C4C4C4;
+		margin: 10px;
+		display: inline-block;
+	}
+	.weapons{
+		position: absolute;
+		top: 900px;
+		width: 470px;
+		height: 600px;
+		margin-left: 130px;
+	}
+	.primary{
+		position: absolute;
+		width: 240px;
+		height: 250px;
+		font-size: 23px;
+		line-height: 42px;
+		text-align: center;
+		left: 115px;
+	}
+	.imgprim{
+		width: 50px;
+		height: 50px;
+		background: #C4C4C4;
+		margin: 7px;;
+	}
+	.secondary{
+		position: absolute;
+		width: 240px;
+		height: 250px;
+		font-size: 23px;
+		line-height: 42px;
+		text-align: center;
+		top: 250px;
+		left: 115px;
+	}
+	.imgsecond{
+		width: 50px;
+		height: 50px;
+		background: #C4C4C4;
+		margin: 7px;;
+	}
+	.project{
+		position: absolute;
+		top: 1380px;
+		width: 470px;
+		height: 600px;
+		margin-left: 130px;
+	}
+	.imgproject{
+		width: 130px;
+		height: 130px;
+		background: #C4C4C4;
+		margin: 10px;
+		display: inline-block;
+	}
+	.touchme{
+		position: absolute;
+		top: 1780px;
+		width: 500px;
+		height: 600px;
+		margin-left: 230px;
+	}
+	.touchme > h3{
+		font-size: 23px;
+		text-decoration: underline;
+		text-align: left;
+		margin-left: 80px;
+		margin-bottom: 40px;
+	}
+	.imgtouchme{
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+	}
+}
